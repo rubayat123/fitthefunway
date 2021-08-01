@@ -1,0 +1,49 @@
+
+
+#logo{
+    width: 199px;
+}
+
+li.nav-item.dropdown{
+  background-color: #ffe9ec;
+  color: blue;
+}
+.nav-item{
+  padding:5px;
+  font-size: 18px;
+}
+.navbar-nav {
+  padding-left: 200px;
+}
+.tex1:hover {
+    text-decoration: underline;
+}
+.tex2:hover {
+    text-decoration: underline;
+}
+.tex3:hover{
+  text-decoration: underline;
+}
+.tex4:hover{
+   text-decoration: 2px underline;
+}
+
+.bg-light {
+  background-color: #ffe9ec!important;
+  color: #ffe9ec;
+  height:70px;
+}
+
+#chatbox {
+  font-weight: bold;
+}
+
+
+header.backg {
+  background-color: #ffe9ec;
+  height:70px;
+}
+
+
+
+
