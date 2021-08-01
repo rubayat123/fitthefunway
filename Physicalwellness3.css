@@ -1,0 +1,90 @@
+
+#logo{
+    width: 199px;
+}
+
+li.nav-item.dropdown{
+  background-color: #ffe9ec;
+  color: blue;
+}
+
+.nav-item{
+  padding:5px;
+  font-size: 18px;
+}
+
+.navbar-nav {
+  padding-left: 300px;
+}
+
+.tex1:hover {
+    text-decoration: underline;
+}
+
+.tex2:hover {
+    text-decoration: underline;
+}
+
+.tex3:hover{
+  text-decoration: underline;
+}
+
+.tex4:hover{
+   text-decoration: 2px underline;
+}
+
+.bg-light {
+  background-color: #ffe9ec!important;
+  color: #ffe9ec;
+  height:70px;
+}
+
+#chatbox {
+  font-weight: bold;
+}
+
+header.backg {
+  background-color: #ffe9ec;
+  height:70px;
+}
+
+img.img{
+  opacity: 0.7;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 270px;
+  left: 500px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+img.img2{
+  height:300px;
+  vertical-align:middle;
+}
+
+.text-col{
+  display: inline-block;
+}
+
+.redcolor:hover{
+  color: red; 
+}
+
+div.text2-col{
+  right:190px;
+  float: right;
+}
+
+.container{
+  display:flex;
+}
+
+.thebigclass{
+  
+}
+
