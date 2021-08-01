@@ -1,0 +1,205 @@
+
+#logo{
+    width: 199px;
+}
+li.nav-item.dropdown{
+  background-color: #ffe9ec;
+  color: blue;
+}
+.nav-item{
+  padding:5px;
+  font-size: 18px;
+}
+.navbar-nav {
+  padding-left: 400px;
+}
+.tex1:hover {
+    text-decoration: underline;
+}
+.tex2:hover {
+    text-decoration: underline;
+}
+.tex3:hover{
+  text-decoration: underline;
+}
+.tex4:hover{
+   text-decoration: 2px underline;
+}
+
+.bg-light {
+  background-color: #ffe9ec!important;
+  color: #ffe9ec;
+  height:70px;
+}
+
+#chatbox {
+  font-weight: bold;
+}
+
+
+header.backg {
+  background-color: #ffe9ec;
+  height:70px;
+}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 0.9}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 0.9}
+}
+
+img.mySlides {
+  opacity: ;
+}
+
+
+h1 {
+font-family: 'Patrick Hand', cursive;
+font-size: 80px;  
+text-shadow: 2px 2px black;
+
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 210px;
+  right: 444px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+h7 {
+font-family: 'Patrick Hand', cursive; 
+font-size: 50px;
+color: black;
+
+}
+
+#buttonsize {
+  width: 500px;
+}
+
+.accordion-item {
+  width: 800px;
+}
+
+
+
+button {
+  background-color: white;
+}
+
+.btn-primary {
+  background-color: white;
+}
+.btn2{
+  background-color: blue;
+}
+
+footer {
+  font-size: 10px;
+}
+
+$accordion-padding-y:                     1rem;
+$accordion-padding-x:                     1.25rem;
+$accordion-color:                         $body-color;
+$accordion-bg:                            $body-bg;
+$accordion-border-width:                  $border-width;
+$accordion-border-color:                  rgba($black, .125);
+$accordion-border-radius:                 $border-radius;
+$accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width);
+
+$accordion-body-padding-y:                $accordion-padding-y;
+$accordion-body-padding-x:                $accordion-padding-x;
+
+$accordion-button-padding-y:              $accordion-padding-y;
+$accordion-button-padding-x:              $accordion-padding-x;
+$accordion-button-color:                  $accordion-color;
+$accordion-button-bg:                     $accordion-bg;
+$accordion-transition:                    $btn-transition, border-radius .15s ease;
+$accordion-button-active-bg:              tint-color($component-active-bg, 90%);
+$accordion-button-active-color:           shade-color($primary, 10%);
+
+$accordion-button-focus-border-color:     $input-focus-border-color;
+$accordion-button-focus-box-shadow:       $btn-focus-box-shadow;
+
+$accordion-icon-width:                    1.25rem;
+$accordion-icon-color:                    $accordion-color;
+$accordion-icon-active-color:             $accordion-button-active-color;
+$accordion-icon-transition:               transform .2s ease-in-out;
+$accordion-icon-transform:                rotate(-180deg);
+
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
